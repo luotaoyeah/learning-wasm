@@ -1,5 +1,5 @@
-/cmake-build-debug
 /dist
 .DS_Store
 .idea
 *.iml
+wasm-pack.log
