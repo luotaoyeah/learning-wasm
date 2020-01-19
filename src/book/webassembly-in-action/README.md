@@ -1,0 +1,1 @@
+[WebAssembly in Action - With examples using C++ and Emscripten](https://www.manning.com/books/webassembly-in-action)

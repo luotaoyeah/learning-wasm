@@ -1,4 +1,4 @@
 /dist
 .DS_Store
 wasm-pack.log
-cmake-build-debug
+cmake-build-vs
