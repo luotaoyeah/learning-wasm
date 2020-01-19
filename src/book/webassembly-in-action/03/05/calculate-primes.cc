@@ -18,10 +18,10 @@ int IsPrime(int value) {
 }
 
 /**
- * $ emcc calculate-primes.cc -o calculate-primes.html
+ * $ emcc calculate-primes.cc -o calculate-primes.js
  *
  * `-o <target>` 指定输出的文件名, 文件名的后缀决定了输出文件的类型,
- * '.html' 表示生成 wasm + js + html 三个文件
+ * '.js' 表示生成 wasm + js 两个文件
  */
 int main() {
   int start = 3;
