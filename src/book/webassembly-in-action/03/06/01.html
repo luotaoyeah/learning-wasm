@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>01</title>
+</head>
+
+<body>
+
+<script>
+  WebAssembly.instantiateStreaming(fetch("./side-module.wasm"), {
+    env: {
+      __memory_base: 0
+    }
+  }).then(function(data) {
+    // FIXME TypeError: data.instance.exports._Increment is not a function
+    const value = data.instance.exports._Increment(17);
+    console.log(value);
+  });
+</script>
+
+</body>
+</html>
+
+

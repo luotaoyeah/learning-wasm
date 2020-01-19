@@ -1,7 +1,7 @@
 // compiling-c-or-c++-as-a-side-module-with-emscripten
 
 /**
- * $ emcc side-module.cc -o side-module.wasm -O1 -s SIDE_MODULE=2 -s "EXPORTED_FUNCTIONS=['_Increment']"
+ * $ emcc side-module.cc -s SIDE_MODULE=2 -O1 -s "EXPORTED_FUNCTIONS=['_Increment']" -o side-module.wasm
  *
  * `-o side-module.wasm`                    表示只生成 wasm 文件
  * `-O1`                                    表示使用一级优化, 移除一些不必要的代码
