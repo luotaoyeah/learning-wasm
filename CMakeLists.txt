@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.12)
 project(learning-wasm)
 set(CMAKE_CXX_STANDARD 17)
-add_executable(learning-wasm src/book/webassembly-in-action/03/04/calculate-primes.cc)
+
+add_subdirectory(src/book/webassembly-in-action/03/04)

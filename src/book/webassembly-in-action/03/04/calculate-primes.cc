@@ -1,7 +1,6 @@
 #include <emscripten.h>
 
 #include <cstdio>
-#include <cstdlib>
 
 int IsPrime(int value) {
   if (value == 2) {
