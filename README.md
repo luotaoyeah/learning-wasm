@@ -1,2 +1,1 @@
 # learning-wasm
-Learning WebAssembly

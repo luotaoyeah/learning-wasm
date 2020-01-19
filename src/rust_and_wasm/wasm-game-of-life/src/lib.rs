@@ -17,11 +17,13 @@ cfg_if! {
 }
 
 #[wasm_bindgen]
-extern {
+extern "C" {
     fn alert(s: &str);
 }
 
 #[wasm_bindgen]
-pub fn greet() {
-    alert("HELLO WORLD");
+pub fn greet(name: &str) {
+    unsafe{
+        alert(&format!("HELLO WORLD, {}", name));
+    }
 }

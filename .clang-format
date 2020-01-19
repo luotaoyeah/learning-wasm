@@ -1,0 +1,6 @@
+Language: Cpp
+BasedOnStyle: Google
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+ColumnLimit: 160
+AllowShortFunctionsOnASingleLine: Empty
