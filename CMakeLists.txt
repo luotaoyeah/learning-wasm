@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(src/book/webassembly-in-action/03/04)
 add_subdirectory(src/book/webassembly-in-action/03/05)
 add_subdirectory(src/book/webassembly-in-action/03/06)
+
+add_subdirectory(src/book/webassembly-friendly-programming-with-cpp/01/02)
