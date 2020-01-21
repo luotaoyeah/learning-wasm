@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="EMSDK " value=" D:/proj/git/juj/emsdk" />
+      <env key="EM_CONFIG " value=" D:\proj\git\juj\emsdk\.emscripten" />
+      <env key="EM_CACHE " value=" D:/proj/git/juj/emsdk/upstream/emscripten\cache" />
+      <env key="EMSDK_NODE " value=" D:\proj\git\juj\emsdk\node\12.9.1_64bit\bin\node.exe" />
+      <env key="EMSDK_PYTHON " value=" D:\proj\git\juj\emsdk\python\3.7.4-pywin32_64bit\python.exe" />
+      <env key="JAVA_HOME " value=" D:\proj\git\juj\emsdk\java\8.152_64bit" />
+      <env key="PATH" value="%PATH%;D:\proj\git\juj\emsdk;D:\proj\git\juj\emsdk\upstream\emscripten;D:\proj\git\juj\emsdk\node\12.9.1_64bit\bin;D:\proj\git\juj\emsdk\java\8.152_64bit\bin;D:\proj\git\juj\emsdk\python\3.7.4-pywin32_64bit;" />
+    </envs>
+  </component>
+</project>

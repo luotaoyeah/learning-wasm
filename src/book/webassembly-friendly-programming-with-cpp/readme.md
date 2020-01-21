@@ -1,0 +1,1 @@
+[WebAssembly Friendly Programming With C/C++](https://github.com/3dgen/cppwasm-book)
