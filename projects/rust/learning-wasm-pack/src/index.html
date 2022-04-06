@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>learning-wasm-pack</title>
+</head>
+<body>
+<script type="module">
+    import init, {greet} from '../pkg/learning_wasm_pack.js';
+
+    init().then(() => {
+        greet("luotao");
+    })
+</script>
+</body>
+</html>
