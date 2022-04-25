@@ -2,14 +2,15 @@
 <html lang='en'>
 <head>
     <meta charset='UTF-8' />
-    <title>learning-wasm-pack</title>
+    <title>learning-rustwasm</title>
 </head>
 <body>
 <script type='module'>
-    import init, { log } from '../../pkg/index.js';
+    import init, { log, Util } from '../../pkg/index.js';
 
     init().then(() => {
         log('luotao');
+        Util.fn01();
     }).catch((e) => {
     });
 </script>

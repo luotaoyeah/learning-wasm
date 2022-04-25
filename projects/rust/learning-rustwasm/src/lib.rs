@@ -2,6 +2,7 @@ use wasm_bindgen::prelude::*;
 use web_sys::console;
 
 mod utils;
+pub mod util;
 
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]

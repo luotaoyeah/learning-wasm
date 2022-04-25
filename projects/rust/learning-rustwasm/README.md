@@ -1,4 +1,4 @@
-# @luotao/learning-wasm-pack
+# @luotao/learning-rustwasm
 
 ## 准备开发环境
 
