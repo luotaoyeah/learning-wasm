@@ -13,3 +13,7 @@
 ### 2. 执行 `npm run build`
 
 ### 3. 执行 `npm run publish:npm`
+
+## 如何启动示例应用
+
+### 1. 启动 `/tests/app/index.html`
