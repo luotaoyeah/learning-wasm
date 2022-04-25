@@ -15,3 +15,13 @@ impl Person {
         Person { age: x }
     }
 }
+
+/// 枚举.
+#[wasm_bindgen]
+pub enum E2 {
+    /// X.
+    X,
+
+    /// Y.
+    Y,
+}
