@@ -1,11 +1,8 @@
 use wasm_bindgen::prelude::*;
+use web_sys::console;
 
+/// 问候.
 #[wasm_bindgen]
-extern {
-    pub fn alert(s: &str);
-}
-
-#[wasm_bindgen]
-pub fn greet(name: &str) {
-    alert(&format!("hello, {}", name));
+pub fn log(name: &str) {
+    console::log_1(&format!("HELLO, {}", name).into());
 }

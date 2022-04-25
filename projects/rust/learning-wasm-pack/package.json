@@ -1,0 +1,8 @@
+{
+  "name": "@luotao/learning-wasm-pack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wasm-pack build --release --target=web --scope=luotao --out-dir=dist --out-name=index",
+    "publish:npm": "npmrc luotao && npm publish ./dist --registry https://registry.npmjs.org/ --access public"
+  }
+}

@@ -1,0 +1,117 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="160" />
+    <HTMLCodeStyleSettings>
+      <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+      <option name="HTML_QUOTE_STYLE" value="Single" />
+      <option name="HTML_ENFORCE_QUOTES" value="true" />
+    </HTMLCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
+      <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+    </JSCodeStyleSettings>
+    <Objective-C>
+      <option name="INDENT_NAMESPACE_MEMBERS" value="0" />
+      <option name="INDENT_C_STRUCT_MEMBERS" value="2" />
+      <option name="INDENT_CLASS_MEMBERS" value="2" />
+      <option name="INDENT_VISIBILITY_KEYWORDS" value="1" />
+      <option name="INDENT_INSIDE_CODE_BLOCK" value="2" />
+      <option name="KEEP_STRUCTURES_IN_ONE_LINE" value="true" />
+      <option name="KEEP_CASE_EXPRESSIONS_IN_ONE_LINE" value="true" />
+      <option name="FUNCTION_NON_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+      <option name="FUNCTION_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+      <option name="FUNCTION_PARAMETERS_WRAP" value="5" />
+      <option name="FUNCTION_CALL_ARGUMENTS_WRAP" value="5" />
+      <option name="TEMPLATE_CALL_ARGUMENTS_WRAP" value="5" />
+      <option name="TEMPLATE_CALL_ARGUMENTS_ALIGN_MULTILINE" value="true" />
+      <option name="CLASS_CONSTRUCTOR_INIT_LIST_WRAP" value="5" />
+      <option name="ALIGN_INIT_LIST_IN_COLUMNS" value="false" />
+      <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
+      <option name="KEEP_BLANK_LINES_BEFORE_END" value="1" />
+      <option name="HEADER_GUARD_STYLE_PATTERN" value="${PROJECT_NAME}_${PROJECT_REL_PATH}_${FILE_NAME}_${EXT}_" />
+      <option name="NAMESPACES_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="CLASSES_AND_STRUCTS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="ENUMS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="ENUMERATORS_NAMING_CONVENTION">
+        <value prefix="" style="SCREAMING_SNAKE_CASE" suffix="" />
+      </option>
+      <option name="TYPEDEFS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="UNIONS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="METHODS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+      <option name="GLOBAL_FUNCTIONS_NAMING_CONVENTION">
+        <value prefix="" style="PASCAL_CASE" suffix="" />
+      </option>
+    </Objective-C>
+    <TypeScriptCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
+      <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+    </TypeScriptCodeStyleSettings>
+    <clangFormatSettings>
+      <option name="ENABLED" value="true" />
+    </clangFormatSettings>
+    <files>
+      <extensions>
+        <pair source="cc" header="h" fileNamingConvention="LISP_CASE" />
+        <pair source="c" header="h" fileNamingConvention="NONE" />
+      </extensions>
+    </files>
+    <codeStyleSettings language="HTML">
+      <option name="SOFT_MARGINS" value="160" />
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="SOFT_MARGINS" value="160" />
+    </codeStyleSettings>
+    <codeStyleSettings language="ObjectiveC">
+      <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+      <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+      <option name="BLANK_LINES_AFTER_IMPORTS" value="0" />
+      <option name="BLANK_LINES_AROUND_CLASS" value="0" />
+      <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+      <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+      <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="false" />
+      <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+      <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+      <option name="FOR_STATEMENT_WRAP" value="1" />
+      <option name="ASSIGNMENT_WRAP" value="1" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Rust">
+      <option name="RIGHT_MARGIN" value="160" />
+      <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    </codeStyleSettings>
+    <codeStyleSettings language="TypeScript">
+      <option name="SOFT_MARGINS" value="160" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
