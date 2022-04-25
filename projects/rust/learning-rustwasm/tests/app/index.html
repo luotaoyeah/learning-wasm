@@ -6,11 +6,13 @@
 </head>
 <body>
 <script type='module'>
-    import init, { log, Util } from '../../pkg/index.js';
+    import init, { log, Person } from '../../pkg/index.js';
 
     init().then(() => {
         log('luotao');
-        Util.fn01();
+
+        const person = new Person(9);
+        console.assert(person.age === 9);
     }).catch((e) => {
     });
 </script>

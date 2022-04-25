@@ -3,6 +3,7 @@ use web_sys::console;
 
 mod utils;
 pub mod util;
+pub mod _wasm_bindgen;
 
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]
