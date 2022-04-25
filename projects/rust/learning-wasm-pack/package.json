@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "wasm-pack build --release --target=web --scope=luotao --out-name=index",
-    "publish:npm": "npmrc luotao && npm publish ./pkg --registry https://registry.npmjs.org/ --access public"
+    "publish:npm": "npmrc luotao && npm publish ./pkg --registry https://registry.npmjs.org/ --access public",
+    "test": "wasm-pack test --chrome --headless"
   }
 }
