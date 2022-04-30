@@ -3,3 +3,5 @@ node_modules
 .DS_Store
 wasm-pack.log
 cmake-build-*
+src/**/*.wasm
+src/**/*.js
