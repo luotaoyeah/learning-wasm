@@ -1,9 +1,9 @@
 use wasm_bindgen::prelude::*;
 use web_sys::console;
 
-mod utils;
-pub mod util;
 pub mod _wasm_bindgen;
+pub mod util;
+mod utils;
 
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]

@@ -1,6 +1,9 @@
 Language: Cpp
 BasedOnStyle: Google
 
-KeepEmptyLinesAtTheStartOfBlocks: false
-ColumnLimit: 160
 AllowShortFunctionsOnASingleLine: Empty
+ColumnLimit: 120
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+IndentWidth: 4
